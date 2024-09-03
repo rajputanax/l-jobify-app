@@ -4,7 +4,7 @@ import { useDashBoardContext} from '../assets/Pages/DashboardLayout';
 // ..............................................................
 const NavLinks = () => {
   return (
-    <div>NavLinks</div>
+    <>NavLinks</>
   )
 }
 // ..............................................................
