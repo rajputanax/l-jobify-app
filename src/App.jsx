@@ -28,8 +28,9 @@ function App() {
       { index: 'true', element: <Landing /> },
       { path: 'login', element: <Login /> },
       { path: 'register', element: <Register /> },
-      { path: 'dashboard', element: <DashboardLayout />
-        , children:[
+      { path: 'dashboard', 
+        element: <DashboardLayout />,
+         children:[
           { path: 'edit-job', element: <EditJob /> },
           { path: 'add-job', element: <AddJob /> },
           { path: 'admin', element: <Admin /> },
