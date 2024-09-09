@@ -11,7 +11,7 @@ const SmallSidebar = () => {
     <Wrapper>
 
 
-      <div className={ showSidebar ? ' show-sidebar  sidebar-container ':' sidebar-container'}>
+      <aside className={ showSidebar ? ' show-small--sidebar  sidebar-container ':' small sidebar-container'}>
 
         <div className="content">
           <button type="button" className='close-btn' onClick={toggleSidebar}>
@@ -23,7 +23,7 @@ const SmallSidebar = () => {
           <NavLinks isSmallSidebar />
         </div>
 
-      </div>
+      </aside>
       
       
 
