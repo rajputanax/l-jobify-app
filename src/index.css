@@ -226,7 +226,10 @@ h5 {
   font-size: clamp(1rem, 2vw, 2rem);
 }
  */
+.mb-10{
+  margin: 10px 0;
 
+}
 .text {
   margin-bottom: 1.5rem;
   max-width: 40em;
@@ -264,6 +267,7 @@ ul {
   transition: var(--transition);
   text-transform: capitalize;
   display: inline-block;
+  outline: none !important;
 }
 .btn:hover {
   background: var(--primary-700);

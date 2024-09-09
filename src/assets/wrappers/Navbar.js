@@ -20,6 +20,7 @@ const Wrapper = styled.nav`
     color: var(--primary-500);
     cursor: pointer;
     display: flex;
+    outline:none;
     align-items: center;
   }
   .logo-text {
